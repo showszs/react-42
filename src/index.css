@@ -1,0 +1,48 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+nav {
+  background-color: #a8ddf7;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+div {
+  background-color: #f1f1f1;
+
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #086da0;
+}
+
+a.active {
+  color: #f88a04;
+}
+
+a:hover {
+  color: #f88a04;
+}
